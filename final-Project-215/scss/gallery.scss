@@ -1,0 +1,124 @@
+@font-face {
+    font-family: gillsans;
+    src: url(../fonts/GillSans\ \(2\).ttc);
+}
+
+@font-face {
+    font-family: ptserifBold;
+    src: url(../fonts/PTSerif-Bold\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: ptserifBoldItalic;
+    src: url(../fonts/PTSerif-BoldItalic\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: ptserifItalic;
+    src: url(../fonts/PTSerif-Italic\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: ptserifReg;
+    src: url(../fonts/PTSerif-Regular\ \(1\).ttf);
+}
+
+
+.gallery{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .header{
+        margin-right: 900px;
+        
+        span{
+            font-family: gillsans;
+            font-weight: bolder;
+            font-size: 25px;
+            border-bottom: 2px black solid;
+        }
+    }
+    #galleryImages{
+        margin-top: 20px;
+        width: 1000px;
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+
+        .rowOne{
+            margin-left: 4px;
+            display: flex;
+            width: 962px;
+            justify-content:space-between;
+            margin-bottom: 10px;
+
+        
+                
+            
+            .imageOne{
+                display: flex;
+                background-image: Url(../images/1.png);
+                background-position: center;
+                background-repeat: no-repeat;background-size: cover;
+                width: 489px;
+                height: 187px;
+                background-color: #FFD140;
+                background-blend-mode: multiply;
+                
+                a{
+                    width: 489px;
+                    height: 187px;
+                }
+            
+        }
+                .imageTwo{
+                    background-image: Url(../images/2.jpeg);
+                    background-position: center;
+                    background-repeat: no-repeat;background-size: cover;
+                    height: 187px;
+                    width: 187px;
+                    background-color: #EE4367;
+                background-blend-mode: multiply
+                }
+                .imageThree{
+                    background-image: Url(../images/3.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;background-size: cover;
+                    width: 265px;
+                    height: 187px;
+                    background-color: #08AD69;
+                background-blend-mode: multiply
+                }
+        }
+
+    
+
+           .rowTwo{
+            width: 970px;
+            display: flex;
+            justify-content: space-evenly;
+            .imageFour{
+                background-image: Url(../images/4.jpg);
+                background-position: center;
+                background-repeat: no-repeat;background-size: cover;
+                height: 306px;
+                width: 603px;
+                background-color: #540D6E;
+                background-blend-mode: multiply 
+
+            }
+            .imageFive{
+                background-image: Url(../images/5.png);
+                background-position: center;
+                background-repeat: no-repeat;background-size: cover;
+                height: 306px;
+                width: 355px;
+                background-color: #3BCEAB;
+                background-blend-mode: multiply;
+            }
+           }
+        }
+    }

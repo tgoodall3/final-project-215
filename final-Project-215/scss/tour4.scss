@@ -1,0 +1,43 @@
+.galleryTourFour{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    .tourHero{
+        width: 980px;
+        height: 400px;
+        background-image: url(../images/4.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #540D6E;
+        background-blend-mode: multiply;
+        display: flex;
+        justify-content: center;
+
+
+        .header{
+             margin-top: 270px;
+            span{
+                font-size: 140px;
+                color: #540D6E;
+                font-family: gillsans;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .tourContent{
+        margin-top: 50px;
+        width: 980px;
+        display: flex;
+        justify-content: space-evenly;
+        span{
+            width: 490px;
+            font-family: gillsans;
+            color: black;
+        }
+    }
+}

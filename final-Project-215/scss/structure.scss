@@ -1,0 +1,39 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+*{
+
+@font-face {
+    font-family: gillsans;
+    src: url(../fonts/GillSans\ \(2\).ttc);
+}
+
+@font-face {
+    font-family: ptserifBold;
+    src: url(../fonts/PTSerif-Bold\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: ptserifBoldItalic;
+    src: url(../fonts/PTSerif-BoldItalic\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: ptserifItalic;
+    src: url(../fonts/PTSerif-Italic\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: ptserifReg;
+    src: url(../fonts/PTSerif-Regular\ \(1\).ttf);
+}
+}

@@ -1,0 +1,65 @@
+@font-face {
+    font-family: gillsans;
+    src: url(../fonts/GillSans\ \(2\).ttc);
+}
+
+@font-face {
+    font-family: ptserifBold;
+    src: url(../fonts/PTSerif-Bold\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: ptserifBoldItalic;
+    src: url(../fonts/PTSerif-BoldItalic\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: ptserifItalic;
+    src: url(../fonts/PTSerif-Italic\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: ptserifReg;
+    src: url(../fonts/PTSerif-Regular\ \(1\).ttf);
+}
+
+
+.about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .aboutHero{
+        width: 980px;
+        height: 380px;
+        background-image: url(../images/about.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #FFD140;
+        background-blend-mode: multiply;
+        .header{
+            position: relative;
+            span{
+                position: absolute;
+                top: 355px;
+                font-size: 25px;
+                border-bottom: 2px black solid;
+                font-family: gillsans;
+                font-weight: bolder;
+            }
+        }
+    }
+    .aboutContent{
+        margin-top: 50px;
+        width: 980px;
+        margin-bottom: 100px;
+        span{
+            font-family: gillsans;
+            font-style: italic;
+
+
+        }
+    }
+}

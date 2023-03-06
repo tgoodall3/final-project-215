@@ -1,0 +1,55 @@
+#nav-holder{
+    position: relative;
+    nav{
+        position: fixed;
+        top: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        span{
+            color: #EE4367;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+
+    #links{
+        position: fixed;
+        right: 20px;
+        top: 30px;
+        a{
+            font-family: gillsans;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+    }
+
+    #logo{
+        width: 50px;
+        height: 30px;
+        border: 2px white solid;
+        position: fixed;
+        left: 20px;
+        border: 2px white solid;
+        span{
+            position: fixed;
+            top: 30px;
+            font-size: 20px;
+            color: white;
+            font-family: gillsans;
+        }
+    }
+    
+    #bottom{    
+        position: fixed;
+        top: 60px;
+        left: 15px;
+        border-bottom: white 2px solid;
+        width: 98%;
+    }
+
+}
+
+   
+
+}
